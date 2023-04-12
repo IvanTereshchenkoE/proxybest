@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.auth_page {
+  text-align: center;
+  margin-inline: 35%;
+  margin-top: 5%;
+  width: 30%;
+  height: 250px;
+  border: 5px solid black;
+  border-top-left-radius: 15em 7em;
+  border-bottom-right-radius: 15em 7em;
+  border-color: blueviolet;
+}
+.auth_page p {
+  color: darkslateblue;
+}
+.auth_page input {
+  width: 170px;
+}
+.login_p {
+  width: 174px;
+  margin-top: 65px;
+  margin-bottom: 5px;
+  margin-left: 85px;
+  font-size: 18px;
+}
+.password_p {
+  width: 174px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 89px;
+  font-size: 18px;
+}
+.auth_button {
+  margin-top: 10px;
+  margin-left: 150px;
+}
