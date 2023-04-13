@@ -17,9 +17,16 @@
 .reg_page p {
   color: darkslateblue;
 }
-.reg_page input {
-  width: 170px;
+
+.input:focus {
+  outline: none;
 }
+
+.input_error {
+  border-width: 2px;
+  border-color: red;
+}
+
 .reg_email_p {
   width: 174px;
   margin-bottom: 5px;

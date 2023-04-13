@@ -5,9 +5,6 @@ import { AuthConsumer } from "../../../App";
 
 export default function Header() {
   const { role, name } = AuthConsumer();
-
-  console.log(name)
-
   return (
     <div className="header">
       <div className="nav_logo">
